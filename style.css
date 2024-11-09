@@ -33,11 +33,13 @@ header .container {
 }
 
 /* Estilo do título do cabeçalho */
-@media (max-width: 768px) 
-header h1 {
-    margin: 0;
-    font-size: 2rem;
+@media (max-width: 768px) {
+    header h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
 }
+
 
 /* Estilo da navegação */
 nav ul {
@@ -104,9 +106,9 @@ body {
 }
 
 .profile-picture img {
-    border-radius: 10px;
-    width: 200px;
-    height: 200px;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
 }
 
@@ -231,24 +233,47 @@ body {
     text-align: center;
 }
 
-.about-container {
+..about-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Alinha a imagem e o texto lado a lado */
     align-items: center;
+    gap: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.profile-picture {
+    flex-shrink: 0; /* Impede que a imagem reduza seu tamanho */
+}
+
+.about-content {
+    max-width: 600px; /* Limita a largura do texto para melhorar a legibilidade */
+}
+
+.profile-picture {
+    display: inline-block; /* Permite que a borda envolva a imagem corretamente */
+    border: 10px solid transparent; /* Espaço para a borda */
+    border-radius: 0; /* Mantém a imagem quadrada */
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5), 0 0 40px rgba(0, 255, 0, 0.3); /* Sombra verde */
+    animation: pulse 1.5s infinite alternate; /* Animação de pulso */
 }
 
 .profile-picture img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
+    width: 200px; /* Aumenta o tamanho da imagem */
+    height: 200px; /* Mantém a imagem quadrada */
+    border-radius: 0; /* Remove os cantos arredondados para deixar a imagem quadrada */
+    object-fit: cover; /* Garante que a imagem ocupe todo o espaço disponível */
 }
 
-.about-content h2 {
-    font-size: 2.5rem;
-    color: #2c3e50;
-    margin-bottom: 20px;
+/* Animação para o efeito de pulso */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 20px rgba(230, 4, 4, 0.5), 0 0 40px rgba(239, 54, 3, 0.3);
+    }
+    100% {
+        box-shadow: 0 0 30px rgb(52, 3, 159), 0 0 60px rgba(183, 243, 4, 0.7);
+    }
 }
+
+
 
 .about-content h2 span {
     color: #e67e22;
