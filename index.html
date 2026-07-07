@@ -1,261 +1,420 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jefferson Fagundes | Portfólio</title>
-  <link rel="stylesheet" href="estilo.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jefferson Fagundes | Portfólio</title>
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Ícones -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <aside class="sidebar">
-    <div class="profile">
-      <img src="IMG_1417_porti.jpg" alt="Foto de Jefferson Fagundes" class="profile-img" />
-      <h1>Jefferson Fagundes</h1>
-      <p>Analista de Planejamento</p>
-      <span>Dados que geram decisões.</span>
-    </div>
 
-    <nav class="menu">
-      <a href="#inicio">Início</a>
-      <a href="#sobre">Sobre Mim</a>
-      <a href="#experiencia">Experiência</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#contato">Contato</a>
-    </nav>
+    <!-- ================= HEADER ================= -->
 
-    <div class="social-side">
-      <a href="https://www.linkedin.com/in/jefferson-fagundes/" target="_blank"><img src="linkedin.png" alt="LinkedIn" /></a>
-      <a href="https://github.com/jefffagundes" target="_blank"><img src="git.png" alt="GitHub" /></a>
-      <a href="https://www.instagram.com/jefferson_fagundes7/" target="_blank"><img src="instagram.png" alt="Instagram" /></a>
-    </div>
-  </aside>
+    <header class="header">
 
-  <main class="main-content">
-    <section id="inicio" class="hero section">
-      <div class="hero-text">
-        <span class="tag">Analista de Planejamento</span>
-        <h2>Transformo dados em <strong>decisões estratégicas</strong></h2>
-        <p>Atuação com foco em planejamento operacional, análise de dados, dashboards, relatórios e automação de processos.</p>
-        <div class="hero-skills">
-          <span>Excel</span>
-          <span>Power BI</span>
-          <span>SQL</span>
-          <span>Python</span>
-          <span>Power Query</span>
-        </div>
-        <div class="hero-buttons">
-          <a href="#projetos" class="btn primary">Ver Projetos</a>
-          <a href="#contato" class="btn secondary">Entrar em Contato</a>
-        </div>
-      </div>
-
-      <div id="sobre" class="about-card">
-        <h2>Sobre <span>mim</span></h2>
-        <p>Graduando em Análise e Desenvolvimento de Sistemas e formação técnica em Logística.</p>
-        <p>Mais de 3 anos de experiência como Analista de Planejamento, com vivência em call center receptivo, backoffice, ativo e atualmente no setor de saneamento.</p>
-        <p>Tenho foco em análise de dados, dashboards e automação, migrando processos de Excel para Power BI, SQL e bibliotecas Python.</p>
-        <div class="numbers">
-          <div><strong>3+</strong><span>Anos de experiência</span></div>
-          <div><strong>7+</strong><span>Projetos publicados</span></div>
-          <div><strong>10+</strong><span>Ferramentas</span></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="experiencia" class="section">
-      <div class="section-title">
-        <h2>Experiência Profissional</h2>
-        <p>Minha trajetória em planejamento, dados e operações.</p>
-      </div>
-
-      <div class="experience-grid">
-        <article class="experience-card">
-          <img src="Logo_sialdrill.png" alt="Sialdrill Engenharia" />
-          <div>
-            <span class="date">2025 - Atual</span>
-            <h3>Analista de Planejamento - Júnior</h3>
-            <h4>Sialdrill Engenharia</h4>
-            <p><strong>Ferramentas:</strong> Power BI, AutoCAD, Excel, Power Query e SQL Server.</p>
-            <p><strong>Atividades:</strong> Responsável pela solicitação de materiais e insumos para os serviços de saneamento a pedido da Sabesp.</p>
-          </div>
-        </article>
-
-        <article class="experience-card">
-          <img src="Full time.png" alt="Full Time" />
-          <div>
-            <span class="date">2025 - 2025</span>
-            <h3>Assistente de Planejamento - Pleno</h3>
-            <h4>Full Time</h4>
-            <p><strong>Ferramentas:</strong> Power BI, Nectar, Excel, Power Query e SQL Server.</p>
-            <p><strong>Atividades:</strong> Validação de relatórios em Excel e Power BI, criação de dashboards personalizados e atendimento de chamados.</p>
-          </div>
-        </article>
-
-        <article class="experience-card">
-          <img src="neobpo.png" alt="Neobpo" />
-          <div>
-            <span class="date">2022 - 2023</span>
-            <h3>Analista de Planejamento - PL</h3>
-            <h4>Neobpo</h4>
-            <p><strong>Ferramentas:</strong> Nice WFM, AVAYA, Excel, PowerPoint e SQL.</p>
-            <p><strong>Atividades:</strong> Acompanhamento de indicadores, relatórios diários, escalas, dimensionamento, férias, banco de horas e FTE.</p>
-          </div>
-        </article>
-
-        <article class="experience-card">
-          <img src="neobpo.png" alt="Neobpo" />
-          <div>
-            <span class="date">2020 - 2022</span>
-            <h3>Analista de Planejamento - JR</h3>
-            <h4>Neobpo</h4>
-            <p><strong>Ferramentas:</strong> WFM, AVAYA, Excel, PowerPoint e SQL.</p>
-            <p><strong>Atividades:</strong> Indicadores, relatórios, escalas, dimensionamento, férias, banco de horas e criação de relatórios.</p>
-          </div>
-        </article>
-
-        <article class="experience-card">
-          <img src="neobpo.png" alt="Neobpo" />
-          <div>
-            <span class="date">2020 - 2020</span>
-            <h3>Assistente de Planejamento</h3>
-            <h4>Neobpo</h4>
-            <p><strong>Ferramentas:</strong> WFM, AVAYA, Excel e SQL.</p>
-            <p><strong>Atividades:</strong> Acompanhamento de indicadores, relatórios diários e geração de escalas.</p>
-          </div>
-        </article>
-
-        <article class="experience-card">
-          <img src="neobpo.png" alt="Neobpo" />
-          <div>
-            <span class="date">2019 - 2020</span>
-            <h3>Ativo / Backoffice</h3>
-            <h4>Neobpo</h4>
-            <p><strong>Ferramentas:</strong> E-mail, FTP e SQL.</p>
-            <p><strong>Atividades:</strong> Tratativa de erros em plataforma, atendimento ao cliente e apoio em treinamentos.</p>
-          </div>
-        </article>
-
-        <article class="experience-card">
-          <img src="tivit.png" alt="Tivit" />
-          <div>
-            <span class="date">2016 - 2019</span>
-            <h3>Agente de Processos</h3>
-            <h4>Tivit</h4>
-            <p><strong>Ferramentas:</strong> AVAYA.</p>
-            <p><strong>Atividades:</strong> Atendimento referente ao sistema Orizon, apoio em erros sistêmicos e treinamentos.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="projetos" class="section">
-      <div class="section-title">
-        <h2>Projetos em Destaque</h2>
-        <p>Alguns projetos desenvolvidos com Power BI, Python, Excel e análise de dados.</p>
-      </div>
-
-      <div class="projects-grid">
-        <a class="project-card" href="https://app.powerbi.com/view?r=eyJrIjoiOTJlNTgyNGQtMjE2Zi00YjM4LTg3YTctZjI3MjgxZjkzYTk4IiwidCI6IjQ3MWI4Y2ExLTgyNzktNDZhNy1iZmY1LWVlMjNiYTkyMGRkNSJ9" target="_blank">
-          <img src="Primeiro_power_bi.png" alt="Dashboard em Power BI" />
-          <h3>Dashboard em Power BI</h3>
-          <p>Análise e visualização de indicadores em painel interativo.</p>
-          <span>Power BI</span>
-        </a>
-
-        <a class="project-card" href="https://github.com/jefffagundes/Sistema-de-recomenda-o" target="_blank">
-          <img src="sistema de recomendação.png" alt="Sistema de recomendação" />
-          <h3>Sistema de Recomendação</h3>
-          <p>Projeto em Python para recomendação com análise de similaridade.</p>
-          <span>Python</span>
-        </a>
-
-        <a class="project-card" href="https://1drv.ms/x/c/720123f519fbf4ee/EQgzGiIG_yVJj5mb2cSkihQBDWwnSpoOKzSvKZ2UdzZUfw?e=s1aewh" target="_blank">
-          <img src="Analise de gasto de livros.png" alt="Análise de gasto de livros" />
-          <h3>Análise de Gastos de Livros</h3>
-          <p>Estudo em planilha para controle e análise de gastos.</p>
-          <span>Excel</span>
-        </a>
-
-        <a class="project-card" href="https://1drv.ms/x/c/720123f519fbf4ee/EROT2SDVgBlGrWZgVcWnnpwBcg3RED4nYPNobnxoqEh2Ew?e=1zPq4R" target="_blank">
-          <img src="curva.png" alt="Análise de curva" />
-          <h3>Análise de Curva</h3>
-          <p>Curva para central de atendimento e planejamento operacional.</p>
-          <span>Excel</span>
-        </a>
-
-        <a class="project-card" href="https://projecaovolume.streamlit.app/" target="_blank">
-          <img src="Projeção_Volume.png" alt="Projeção de volume" />
-          <h3>Projeção de Volume</h3>
-          <p>Aplicação em Streamlit para previsão de volume de atendimento.</p>
-          <span>Streamlit</span>
-        </a>
-
-        <a class="project-card" href="https://app.powerbi.com/view?r=eyJrIjoiYzNkNTAzOTktNmM0MS00NGU0LTk2ZjktMWM5NjZlZDI4M2VkIiwidCI6IjQ3MWI4Y2ExLTgyNzktNDZhNy1iZmY1LWVlMjNiYTkyMGRkNSJ9" target="_blank">
-          <img src="Dashboard RH.png" alt="Dashboard RH" />
-          <h3>Dashboard RH</h3>
-          <p>Painel para análise de indicadores de recursos humanos.</p>
-          <span>Power BI</span>
-        </a>
-
-        <a class="project-card" href="https://app.powerbi.com/view?r=eyJrIjoiYjI0MjdkZmMtZTZkZS00ODhhLWJlMDAtZWFmN2Q0Y2JiZGJkIiwidCI6IjQ3MWI4Y2ExLTgyNzktNDZhNy1iZmY1LWVlMjNiYTkyMGRkNSJ9" target="_blank">
-          <img src="DashboardCall center.png" alt="Dashboard Call Center" />
-          <h3>Dashboard Call Center</h3>
-          <p>Painel operacional para acompanhamento de indicadores de atendimento.</p>
-          <span>Power BI</span>
-        </a>
-      </div>
-    </section>
-
-    <section id="habilidades" class="section skills-section">
-      <div class="section-title">
-        <h2>Habilidades Principais</h2>
-        <p>Ferramentas e tecnologias que fazem parte da minha rotina.</p>
-      </div>
-
-      <div class="skills-wrapper">
-        <div class="skill-bars">
-          <div class="bar"><span>Excel Avançado</span><div><i style="width:95%"></i></div><strong>95%</strong></div>
-          <div class="bar"><span>Power BI</span><div><i style="width:90%"></i></div><strong>90%</strong></div>
-          <div class="bar"><span>SQL Server</span><div><i style="width:85%"></i></div><strong>85%</strong></div>
-          <div class="bar"><span>Power Query</span><div><i style="width:85%"></i></div><strong>85%</strong></div>
-          <div class="bar"><span>Python</span><div><i style="width:75%"></i></div><strong>75%</strong></div>
+        <div class="logo">
+            Jefferson
+            <span>Fagundes</span>
         </div>
 
-        <div class="skill-tags">
-          <span>MYSQL Workbench</span>
-          <span>SQL Server</span>
-          <span>Avaya</span>
-          <span>Excel</span>
-          <span>HTML</span>
-          <span>Estatística Básica</span>
-          <span>FTP FileZilla</span>
-          <span>Power Query</span>
-          <span>Nice WFM</span>
-          <span>Linguagem R</span>
-          <span>Selenium</span>
-          <span>Visual Basic</span>
-          <span>CSS</span>
-          <span>PowerPoint</span>
-          <span>Python</span>
-          <span>Streamlit</span>
+        <nav>
+
+            <ul>
+
+                <li>
+                    <a href="#inicio">Início</a>
+                </li>
+
+                <li>
+                    <a href="#sobre">Sobre</a>
+                </li>
+
+                <li>
+                    <a href="#habilidades">Habilidades</a>
+                </li>
+
+                <li>
+                    <a href="#projetos">Projetos</a>
+                </li>
+
+                <li>
+                    <a href="#contato">Contato</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HOME ================= -->
+
+    <section class="hero" id="inicio">
+
+        <div class="hero-text">
+
+            <span class="mini-title">
+                Analista de Planejamento
+            </span>
+
+            <h1>
+
+                Jefferson
+                <span>Fagundes</span>
+
+            </h1>
+
+            <h2>
+                Planejamento • Power BI • SQL • Python
+            </h2>
+
+            <p>
+
+                Transformando dados em decisões estratégicas através de
+                dashboards, automações e análise operacional.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projetos" class="btn">
+                    Ver Projetos
+                </a>
+
+                <a href="#contato" class="btn-outline">
+                    Contato
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:seuemail@email.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
         </div>
-      </div>
+
+        <div class="hero-image">
+
+            <img src="img/perfil.png" alt="Jefferson Fagundes">
+
+        </div>
+
+    </section>
+        <!-- ================= SOBRE ================= -->
+
+    <section class="sobre" id="sobre">
+
+        <div class="sobre-img">
+            <img src="img/perfil.png" alt="Foto de Jefferson Fagundes">
+        </div>
+
+        <div class="sobre-texto">
+
+            <span class="section-subtitle">Sobre mim</span>
+
+            <h2>
+                Analista de Planejamento com foco em dados e performance
+            </h2>
+
+            <p>
+                Sou Jefferson Fagundes, Analista de Planejamento com experiência em análise de indicadores,
+                elaboração de relatórios, dashboards e acompanhamento de performance operacional.
+            </p>
+
+            <p>
+                Tenho conhecimento em Excel, Power BI, SQL e Python, utilizando dados para apoiar decisões,
+                melhorar processos e gerar visibilidade para a operação.
+            </p>
+
+            <div class="sobre-info">
+
+                <div>
+                    <strong>Power BI</strong>
+                    <span>Dashboards e indicadores</span>
+                </div>
+
+                <div>
+                    <strong>SQL</strong>
+                    <span>Consultas e bases de dados</span>
+                </div>
+
+                <div>
+                    <strong>Python</strong>
+                    <span>Análises e automações</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= HABILIDADES ================= -->
+
+    <section class="habilidades" id="habilidades">
+
+        <div class="section-title">
+
+            <span>Minhas competências</span>
+
+            <h2>Habilidades</h2>
+
+            <p>
+                Tecnologias e ferramentas que utilizo no meu dia a dia para
+                análise de dados, planejamento, automações e desenvolvimento.
+            </p>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <i class="fas fa-file-excel"></i>
+                <h3>Excel</h3>
+                <p>
+                    Dashboards, Power Query, fórmulas avançadas,
+                    tabelas dinâmicas e automações.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-chart-column"></i>
+                <h3>Power BI</h3>
+                <p>
+                    Dashboards interativos, KPIs,
+                    DAX, Power Query e Storytelling.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+                <p>
+                    Consultas, Views, Procedures,
+                    tratamento e análise de bases.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <p>
+                    Automações, Streamlit,
+                    Pandas e análise de dados.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Planejamento</h3>
+                <p>
+                    Forecast, indicadores,
+                    produtividade e performance operacional.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>HTML & CSS</h3>
+                <p>
+                    Desenvolvimento de interfaces
+                    modernas e responsivas.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= PROJETOS ================= -->
+
+    <section class="projetos" id="projetos">
+
+        <div class="section-title">
+
+            <span>Meus trabalhos</span>
+
+            <h2>Projetos</h2>
+
+            <p>
+                Alguns projetos desenvolvidos com foco em dados, dashboards,
+                automações e soluções para planejamento operacional.
+            </p>
+
+        </div>
+
+        <div class="projetos-grid">
+
+            <div class="projeto-card">
+
+                <div class="projeto-img">
+                    <i class="fas fa-chart-pie"></i>
+                </div>
+
+                <div class="projeto-conteudo">
+
+                    <h3>Dashboard Operacional</h3>
+
+                    <p>
+                        Painel desenvolvido para acompanhamento de indicadores,
+                        produtividade, metas e desempenho operacional.
+                    </p>
+
+                    <div class="techs">
+                        <span>Power BI</span>
+                        <span>Excel</span>
+                        <span>KPIs</span>
+                    </div>
+
+                    <a href="#" class="projeto-link">
+                        Ver projeto
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="projeto-card">
+
+                <div class="projeto-img">
+                    <i class="fas fa-database"></i>
+                </div>
+
+                <div class="projeto-conteudo">
+
+                    <h3>Análise com SQL</h3>
+
+                    <p>
+                        Consultas e tratamentos de dados para extração de bases,
+                        criação de relatórios e apoio à tomada de decisão.
+                    </p>
+
+                    <div class="techs">
+                        <span>SQL Server</span>
+                        <span>Dados</span>
+                        <span>Relatórios</span>
+                    </div>
+
+                    <a href="#" class="projeto-link">
+                        Ver projeto
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="projeto-card">
+
+                <div class="projeto-img">
+                    <i class="fab fa-python"></i>
+                </div>
+
+                <div class="projeto-conteudo">
+
+                    <h3>Sistema em Python</h3>
+
+                    <p>
+                        Aplicação desenvolvida para automatizar processos,
+                        organizar informações e facilitar o controle operacional.
+                    </p>
+
+                    <div class="techs">
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                        <span>Automação</span>
+                    </div>
+
+                    <a href="#" class="projeto-link">
+                        Ver projeto
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+        <!-- ================= CONTATO ================= -->
+
+    <section class="contato" id="contato">
+
+        <div class="section-title">
+
+            <span>Fale comigo</span>
+
+            <h2>Contato</h2>
+
+            <p>
+                Estou aberto a oportunidades na área de Planejamento, Dados,
+                Power BI, SQL e desenvolvimento de soluções.
+            </p>
+
+        </div>
+
+        <div class="contato-container">
+
+            <div class="contato-card">
+                <i class="fas fa-envelope"></i>
+                <h3>E-mail</h3>
+                <p>seuemail@email.com</p>
+            </div>
+
+            <div class="contato-card">
+                <i class="fab fa-linkedin"></i>
+                <h3>LinkedIn</h3>
+                <p>linkedin.com/in/seu-perfil</p>
+            </div>
+
+            <div class="contato-card">
+                <i class="fab fa-github"></i>
+                <h3>GitHub</h3>
+                <p>github.com/seu-usuario</p>
+            </div>
+
+        </div>
+
     </section>
 
-    <section id="contato" class="section contact">
-      <h2>Vamos conversar?</h2>
-      <p>Estou aberto a oportunidades em Planejamento, BI e Dados.</p>
-      <div class="contact-links">
-        <a href="https://www.linkedin.com/in/jefferson-fagundes/" target="_blank">LinkedIn</a>
-        <a href="https://github.com/jefffagundes" target="_blank">GitHub</a>
-        <a href="https://www.instagram.com/jefferson_fagundes7/" target="_blank">Instagram</a>
-      </div>
-    </section>
+    <!-- ================= FOOTER ================= -->
 
-    <footer>
-      <p>© 2025 Jefferson Fagundes. Todos os direitos reservados.</p>
+    <footer class="footer">
+
+        <p>
+            © 2026 Jefferson Fagundes. Todos os direitos reservados.
+        </p>
+
     </footer>
-  </main>
+
 </body>
+
 </html>
