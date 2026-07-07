@@ -4,174 +4,258 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jefferson Fagundes | Portfólio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css" />
 </head>
 <body>
   <aside class="sidebar">
-    <div class="profile-card">
-      <img src="IMG_1417_ porti.jpg" alt="Foto de Jefferson Fagundes" class="avatar" />
+    <div class="profile">
+      <img src="IMG_1417_porti.jpg" alt="Foto de Jefferson Fagundes" class="profile-img" />
       <h1>Jefferson Fagundes</h1>
       <p>Analista de Planejamento</p>
       <span>Dados que geram decisões.</span>
     </div>
 
-    <nav class="side-nav">
-      <a href="#inicio" class="active">⌂ Início</a>
-      <a href="#sobre">👤 Sobre Mim</a>
-      <a href="#experiencia">💼 Experiência</a>
-      <a href="#projetos">▣ Projetos</a>
-      <a href="#skills">⚙ Habilidades</a>
-      <a href="#contato">✉ Contato</a>
+    <nav class="menu">
+      <a href="#inicio">Início</a>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#contato">Contato</a>
     </nav>
 
-    <div class="social-box">
-      <p>Conecte-se comigo</p>
-      <div class="social-icons">
-        <a href="https://www.linkedin.com/in/jefferson-fagundes/" target="_blank" aria-label="LinkedIn"><img src="linkedin.png" alt="LinkedIn"></a>
-        <a href="https://github.com/jefffagundes" target="_blank" aria-label="GitHub"><img src="git.png" alt="GitHub"></a>
-        <a href="https://www.instagram.com/jefferson_fagundes7/" target="_blank" aria-label="Instagram"><img src="instagram.png" alt="Instagram"></a>
-      </div>
+    <div class="social-side">
+      <a href="https://www.linkedin.com/in/jefferson-fagundes/" target="_blank"><img src="linkedin.png" alt="LinkedIn" /></a>
+      <a href="https://github.com/jefffagundes" target="_blank"><img src="git.png" alt="GitHub" /></a>
+      <a href="https://www.instagram.com/jefferson_fagundes7/" target="_blank"><img src="instagram.png" alt="Instagram" /></a>
     </div>
   </aside>
 
   <main class="main-content">
-    <header class="topbar">
-      <strong>Jefferson Fagundes</strong>
-      <nav>
-        <a href="#inicio">Início</a>
-        <a href="#sobre">Sobre Mim</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#skills">Habilidades</a>
-      </nav>
-    </header>
-
-    <section id="inicio" class="hero section-grid">
+    <section id="inicio" class="hero section">
       <div class="hero-text">
         <span class="tag">Analista de Planejamento</span>
-        <h2>Transformo dados em <span>decisões estratégicas</span></h2>
-        <p>Atuação com foco em planejamento operacional, análise de dados, dashboards e automação de processos para gerar eficiência e melhores resultados.</p>
+        <h2>Transformo dados em <strong>decisões estratégicas</strong></h2>
+        <p>Atuação com foco em planejamento operacional, análise de dados, dashboards, relatórios e automação de processos.</p>
         <div class="hero-skills">
-          <span>Excel Avançado</span>
+          <span>Excel</span>
           <span>Power BI</span>
           <span>SQL</span>
           <span>Python</span>
+          <span>Power Query</span>
         </div>
-        <div class="hero-actions">
+        <div class="hero-buttons">
           <a href="#projetos" class="btn primary">Ver Projetos</a>
           <a href="#contato" class="btn secondary">Entrar em Contato</a>
         </div>
       </div>
 
       <div id="sobre" class="about-card">
-        <h2>Sobre mim</h2>
+        <h2>Sobre <span>mim</span></h2>
         <p>Graduando em Análise e Desenvolvimento de Sistemas e formação técnica em Logística.</p>
-        <p>Mais de 3 anos de experiência como Analista de Planejamento em operações de call center e atualmente no setor de saneamento.</p>
-        <p>Atuo com análise de dados, dashboards, relatórios, indicadores e automação de processos para apoiar a tomada de decisão.</p>
-        <div class="metrics">
+        <p>Mais de 3 anos de experiência como Analista de Planejamento, com vivência em call center receptivo, backoffice, ativo e atualmente no setor de saneamento.</p>
+        <p>Tenho foco em análise de dados, dashboards e automação, migrando processos de Excel para Power BI, SQL e bibliotecas Python.</p>
+        <div class="numbers">
           <div><strong>3+</strong><span>Anos de experiência</span></div>
-          <div><strong>10+</strong><span>Projetos concluídos</span></div>
-          <div><strong>8+</strong><span>Ferramentas</span></div>
+          <div><strong>7+</strong><span>Projetos publicados</span></div>
+          <div><strong>10+</strong><span>Ferramentas</span></div>
         </div>
       </div>
     </section>
 
-    <section id="experiencia" class="section-block">
-      <div class="section-title"><h2>Experiência Profissional</h2></div>
+    <section id="experiencia" class="section">
+      <div class="section-title">
+        <h2>Experiência Profissional</h2>
+        <p>Minha trajetória em planejamento, dados e operações.</p>
+      </div>
+
       <div class="experience-grid">
         <article class="experience-card">
-          <img src="Logo_sialdrill.png" alt="Sialdrill Engenharia">
-          <small>2025 - Atual</small>
-          <h3>Analista de Planejamento - Júnior</h3>
-          <h4>Sialdrill Engenharia</h4>
-          <p><strong>Ferramentas:</strong> Power BI, AutoCAD, Excel, Power Query e SQL Server.</p>
-          <p><strong>Atividades:</strong> Solicitação de materiais e insumos para serviços de saneamento a pedido da Sabesp.</p>
+          <img src="Logo_sialdrill.png" alt="Sialdrill Engenharia" />
+          <div>
+            <span class="date">2025 - Atual</span>
+            <h3>Analista de Planejamento - Júnior</h3>
+            <h4>Sialdrill Engenharia</h4>
+            <p><strong>Ferramentas:</strong> Power BI, AutoCAD, Excel, Power Query e SQL Server.</p>
+            <p><strong>Atividades:</strong> Responsável pela solicitação de materiais e insumos para os serviços de saneamento a pedido da Sabesp.</p>
+          </div>
         </article>
 
         <article class="experience-card">
-          <img src="Full time.png" alt="Full Time">
-          <small>2025 - 2025</small>
-          <h3>Assistente de Planejamento - Pleno</h3>
-          <h4>Full Time</h4>
-          <p><strong>Ferramentas:</strong> Power BI, Nectar, Excel, Power Query e SQL Server.</p>
-          <p><strong>Atividades:</strong> Validação de relatórios, criação de dashboards e atendimento de chamados internos.</p>
+          <img src="Full time.png" alt="Full Time" />
+          <div>
+            <span class="date">2025 - 2025</span>
+            <h3>Assistente de Planejamento - Pleno</h3>
+            <h4>Full Time</h4>
+            <p><strong>Ferramentas:</strong> Power BI, Nectar, Excel, Power Query e SQL Server.</p>
+            <p><strong>Atividades:</strong> Validação de relatórios em Excel e Power BI, criação de dashboards personalizados e atendimento de chamados.</p>
+          </div>
         </article>
 
         <article class="experience-card">
-          <img src="neobpo.png" alt="Neobpo">
-          <small>2022 - 2023</small>
-          <h3>Analista de Planejamento - PL</h3>
-          <h4>Neobpo</h4>
-          <p><strong>Ferramentas:</strong> Nice WFM, AVAYA, Excel, PowerPoint e SQL.</p>
-          <p><strong>Atividades:</strong> Acompanhamento de indicadores, relatórios diários, escalas, dimensionamento, férias e FTE.</p>
+          <img src="neobpo.png" alt="Neobpo" />
+          <div>
+            <span class="date">2022 - 2023</span>
+            <h3>Analista de Planejamento - PL</h3>
+            <h4>Neobpo</h4>
+            <p><strong>Ferramentas:</strong> Nice WFM, AVAYA, Excel, PowerPoint e SQL.</p>
+            <p><strong>Atividades:</strong> Acompanhamento de indicadores, relatórios diários, escalas, dimensionamento, férias, banco de horas e FTE.</p>
+          </div>
         </article>
 
         <article class="experience-card">
-          <img src="neobpo.png" alt="Neobpo">
-          <small>2020 - 2022</small>
-          <h3>Analista de Planejamento - JR</h3>
-          <h4>Neobpo</h4>
-          <p><strong>Ferramentas:</strong> WFM, AVAYA, Excel, PowerPoint e SQL.</p>
-          <p><strong>Atividades:</strong> Indicadores, relatórios, geração de escala, programação de férias e banco de horas.</p>
+          <img src="neobpo.png" alt="Neobpo" />
+          <div>
+            <span class="date">2020 - 2022</span>
+            <h3>Analista de Planejamento - JR</h3>
+            <h4>Neobpo</h4>
+            <p><strong>Ferramentas:</strong> WFM, AVAYA, Excel, PowerPoint e SQL.</p>
+            <p><strong>Atividades:</strong> Indicadores, relatórios, escalas, dimensionamento, férias, banco de horas e criação de relatórios.</p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <img src="neobpo.png" alt="Neobpo" />
+          <div>
+            <span class="date">2020 - 2020</span>
+            <h3>Assistente de Planejamento</h3>
+            <h4>Neobpo</h4>
+            <p><strong>Ferramentas:</strong> WFM, AVAYA, Excel e SQL.</p>
+            <p><strong>Atividades:</strong> Acompanhamento de indicadores, relatórios diários e geração de escalas.</p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <img src="neobpo.png" alt="Neobpo" />
+          <div>
+            <span class="date">2019 - 2020</span>
+            <h3>Ativo / Backoffice</h3>
+            <h4>Neobpo</h4>
+            <p><strong>Ferramentas:</strong> E-mail, FTP e SQL.</p>
+            <p><strong>Atividades:</strong> Tratativa de erros em plataforma, atendimento ao cliente e apoio em treinamentos.</p>
+          </div>
+        </article>
+
+        <article class="experience-card">
+          <img src="tivit.png" alt="Tivit" />
+          <div>
+            <span class="date">2016 - 2019</span>
+            <h3>Agente de Processos</h3>
+            <h4>Tivit</h4>
+            <p><strong>Ferramentas:</strong> AVAYA.</p>
+            <p><strong>Atividades:</strong> Atendimento referente ao sistema Orizon, apoio em erros sistêmicos e treinamentos.</p>
+          </div>
         </article>
       </div>
     </section>
 
-    <section id="projetos" class="section-block">
-      <div class="section-title"><h2>Projetos em Destaque</h2></div>
+    <section id="projetos" class="section">
+      <div class="section-title">
+        <h2>Projetos em Destaque</h2>
+        <p>Alguns projetos desenvolvidos com Power BI, Python, Excel e análise de dados.</p>
+      </div>
+
       <div class="projects-grid">
         <a class="project-card" href="https://app.powerbi.com/view?r=eyJrIjoiOTJlNTgyNGQtMjE2Zi00YjM4LTg3YTctZjI3MjgxZjkzYTk4IiwidCI6IjQ3MWI4Y2ExLTgyNzktNDZhNy1iZmY1LWVlMjNiYTkyMGRkNSJ9" target="_blank">
-          <img src="Primeiro_power_bi.png" alt="Dashboard em Power BI">
+          <img src="Primeiro_power_bi.png" alt="Dashboard em Power BI" />
           <h3>Dashboard em Power BI</h3>
-          <p>Análise visual de indicadores e performance operacional.</p>
+          <p>Análise e visualização de indicadores em painel interativo.</p>
           <span>Power BI</span>
         </a>
 
         <a class="project-card" href="https://github.com/jefffagundes/Sistema-de-recomenda-o" target="_blank">
-          <img src="sistema de recomendação.png" alt="Sistema de Recomendação">
+          <img src="sistema de recomendação.png" alt="Sistema de recomendação" />
           <h3>Sistema de Recomendação</h3>
-          <p>Projeto em Python para recomendação baseada em similaridade.</p>
+          <p>Projeto em Python para recomendação com análise de similaridade.</p>
           <span>Python</span>
         </a>
 
+        <a class="project-card" href="https://1drv.ms/x/c/720123f519fbf4ee/EQgzGiIG_yVJj5mb2cSkihQBDWwnSpoOKzSvKZ2UdzZUfw?e=s1aewh" target="_blank">
+          <img src="Analise de gasto de livros.png" alt="Análise de gasto de livros" />
+          <h3>Análise de Gastos de Livros</h3>
+          <p>Estudo em planilha para controle e análise de gastos.</p>
+          <span>Excel</span>
+        </a>
+
+        <a class="project-card" href="https://1drv.ms/x/c/720123f519fbf4ee/EROT2SDVgBlGrWZgVcWnnpwBcg3RED4nYPNobnxoqEh2Ew?e=1zPq4R" target="_blank">
+          <img src="curva.png" alt="Análise de curva" />
+          <h3>Análise de Curva</h3>
+          <p>Curva para central de atendimento e planejamento operacional.</p>
+          <span>Excel</span>
+        </a>
+
         <a class="project-card" href="https://projecaovolume.streamlit.app/" target="_blank">
-          <img src="Projeção_Volume.png" alt="Projeção de Volume">
+          <img src="Projeção_Volume.png" alt="Projeção de volume" />
           <h3>Projeção de Volume</h3>
-          <p>Aplicação para previsão de volume de atendimento.</p>
+          <p>Aplicação em Streamlit para previsão de volume de atendimento.</p>
           <span>Streamlit</span>
         </a>
 
         <a class="project-card" href="https://app.powerbi.com/view?r=eyJrIjoiYzNkNTAzOTktNmM0MS00NGU0LTk2ZjktMWM5NjZlZDI4M2VkIiwidCI6IjQ3MWI4Y2ExLTgyNzktNDZhNy1iZmY1LWVlMjNiYTkyMGRkNSJ9" target="_blank">
-          <img src="Dashboard RH.png" alt="Dashboard RH">
+          <img src="Dashboard RH.png" alt="Dashboard RH" />
           <h3>Dashboard RH</h3>
-          <p>Análise de indicadores de RH, turnover e elegibilidade.</p>
+          <p>Painel para análise de indicadores de recursos humanos.</p>
+          <span>Power BI</span>
+        </a>
+
+        <a class="project-card" href="https://app.powerbi.com/view?r=eyJrIjoiYjI0MjdkZmMtZTZkZS00ODhhLWJlMDAtZWFmN2Q0Y2JiZGJkIiwidCI6IjQ3MWI4Y2ExLTgyNzktNDZhNy1iZmY1LWVlMjNiYTkyMGRkNSJ9" target="_blank">
+          <img src="DashboardCall center.png" alt="Dashboard Call Center" />
+          <h3>Dashboard Call Center</h3>
+          <p>Painel operacional para acompanhamento de indicadores de atendimento.</p>
           <span>Power BI</span>
         </a>
       </div>
     </section>
 
-    <section id="skills" class="section-block skills-section">
-      <div class="section-title"><h2>Habilidades Principais</h2></div>
-      <div class="skills-layout">
+    <section id="habilidades" class="section skills-section">
+      <div class="section-title">
+        <h2>Habilidades Principais</h2>
+        <p>Ferramentas e tecnologias que fazem parte da minha rotina.</p>
+      </div>
+
+      <div class="skills-wrapper">
         <div class="skill-bars">
-          <div><span>Excel Avançado</span><strong>95%</strong><i style="--w:95%"></i></div>
-          <div><span>Power BI</span><strong>90%</strong><i style="--w:90%"></i></div>
-          <div><span>SQL</span><strong>85%</strong><i style="--w:85%"></i></div>
-          <div><span>Power Query</span><strong>85%</strong><i style="--w:85%"></i></div>
-          <div><span>Python</span><strong>75%</strong><i style="--w:75%"></i></div>
+          <div class="bar"><span>Excel Avançado</span><div><i style="width:95%"></i></div><strong>95%</strong></div>
+          <div class="bar"><span>Power BI</span><div><i style="width:90%"></i></div><strong>90%</strong></div>
+          <div class="bar"><span>SQL Server</span><div><i style="width:85%"></i></div><strong>85%</strong></div>
+          <div class="bar"><span>Power Query</span><div><i style="width:85%"></i></div><strong>85%</strong></div>
+          <div class="bar"><span>Python</span><div><i style="width:75%"></i></div><strong>75%</strong></div>
         </div>
-        <div class="skills-tags">
-          <span>MySQL Workbench</span><span>SQL Server</span><span>Avaya</span><span>HTML</span><span>CSS</span><span>Estatística Básica</span><span>FTP FileZilla</span><span>Nice WFM</span><span>Visual Basic</span><span>PowerPoint</span><span>Streamlit</span><span>Selenium</span>
+
+        <div class="skill-tags">
+          <span>MYSQL Workbench</span>
+          <span>SQL Server</span>
+          <span>Avaya</span>
+          <span>Excel</span>
+          <span>HTML</span>
+          <span>Estatística Básica</span>
+          <span>FTP FileZilla</span>
+          <span>Power Query</span>
+          <span>Nice WFM</span>
+          <span>Linguagem R</span>
+          <span>Selenium</span>
+          <span>Visual Basic</span>
+          <span>CSS</span>
+          <span>PowerPoint</span>
+          <span>Python</span>
+          <span>Streamlit</span>
         </div>
       </div>
     </section>
 
-    <section id="contato" class="quote-section">
-      <p>“Planejar é trazer o futuro para o presente para que você possa agir agora.”</p>
+    <section id="contato" class="section contact">
+      <h2>Vamos conversar?</h2>
+      <p>Estou aberto a oportunidades em Planejamento, BI e Dados.</p>
+      <div class="contact-links">
+        <a href="https://www.linkedin.com/in/jefferson-fagundes/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/jefffagundes" target="_blank">GitHub</a>
+        <a href="https://www.instagram.com/jefferson_fagundes7/" target="_blank">Instagram</a>
+      </div>
     </section>
+
+    <footer>
+      <p>© 2025 Jefferson Fagundes. Todos os direitos reservados.</p>
+    </footer>
   </main>
 </body>
 </html>
